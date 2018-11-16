@@ -85,9 +85,9 @@
         <style>
             .a1
             {
-                background-color: black;
+                background-color: deepskyblue;
                 color: white;
-                margin: 20px;
+                margin: 10px;
                 padding: 20px;
                 width: 300px;
             }
@@ -100,7 +100,7 @@
             .inline { 
                 display: inline-block; 
                 border: 1px solid black;
-                background: #f1f1f1;
+                background: white;
                 margin:10px;
             }
             a:hover {
@@ -118,6 +118,12 @@
                 border-radius: 4px;
             }
         </style>
+        <style>
+            body
+            {
+               background-image: url("")
+            }
+        </style>
     </head>
     <body>
         <div class="header">
@@ -131,8 +137,9 @@
             <% if (session.getAttribute("userid") == null || session.getAttribute("userid") == "") {%>
             <div class="header-right"> 
                 <h1>
-                    <a href="index.jsp"><input type="submit" value="Login" class="btn btn-success"/></a>        
+                    <a href="rohit12.jsp"><input type="submit" value="Login" class="btn btn-success"/></a>        
                     <a href="reg.jsp"><input type="submit" value="SIGNUP" class="btn btn-success"/></a>
+                    <a href="product1.jsp"><input type="submit" value="Add" class="btn btn-success"/></a>
                 </h1>
             </div>
             <%} else {%>
@@ -151,7 +158,7 @@
                     </header>
                 </div>
                 <nav>
-                    <h4>Quikr Bazaar is a whole new way to buy and sell used goods</h4>
+                    <h4><font color="black">Quikr Bazaar is a whole new way to buy and sell used goods</font></h4>
                 </nav>
                 <div class="header2">
                     <ul>
@@ -170,7 +177,7 @@
                     </header>
                 </div>
                 <nav>
-                    <h4>Quikr Bazaar is a whole new way to buy and sell used goods</h4>
+                    <h4><font color="black">Quikr Bazaar is a whole new way to buy and sell used goods</font></h4>
                 </nav>
                 <div class="header2">
                     <ul>
@@ -189,7 +196,7 @@
                     </header>
                 </div>
                 <nav>
-                    <h4>Buy and sell lakhs of used bikes & scooters across in the India</h4>
+                    <h4><font color="black">Buy and sell lakhs of used bikes & scooters across in the India</font></h4>
                 </nav>
                 <div class="header2">
                     <ul>

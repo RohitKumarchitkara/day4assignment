@@ -54,16 +54,16 @@ body {
     </head>
     <body>
          <div class="header">
-        <center> <img src="C:\Users\ROHIT\Desktop\Quikr-Logo.png" height="80" width="300"></center>
-       <div class="header-right"> <h1 ><a href="first.jsp"><input type="submit" value="Back" class="btn btn-success"/></a></h1>
+        <center> <img src="Quikr-Logo.png" height="80" width="300"></center>
+       <div class="header-right"> <h1 ><a href="frontend.jsp"><input type="submit" value="Back" class="btn btn-success"/></a></h1>
         </div>
         </div>
         <h3 style="align-content: left">Popular Brands</h3>
         <div>
-           <div class='inline'><div><img src="C:\Users\ROHIT\Desktop\logo\m1.jpg" height="200px" width="300px"><h3><center>IPhone</center></h3></div></div>
-           <div class='inline'><div><img src="C:\Users\ROHIT\Desktop\logo\m6.jpg" height="200px" width="300px"><h3><center>vivo</center></h3></div></div>
-           <div class='inline'><div><img src="C:\Users\ROHIT\Desktop\logo\m3.jpg" height="200px" width="300px"><h3><center>Oppo</center></h3></div></div>
-           <div class='inline'><div><img src="C:\Users\ROHIT\Desktop\logo\m2.jpg" height="200px" width="300px"><h3><center>MI</center></h3></div></div>
+            <div class='inline'><div><a href="mi1.jsp"><img src="logo/m1.jpg" height="200px" width="300px"><h3><center>IPhone</center></h3></a></div></div>
+            <div class='inline'><div><a href="mv.jsp"><img src="logo/m6.jpg" height="200px" width="300px"><h3><center>vivo</center></h3></a></div></div>
+            <div class='inline'><div><a href="mo.jsp"><img src="logo/m3.jpg" height="200px" width="300px"><h3><center>Oppo</center></h3></div></div>
+    
         </div>
     </body>
 </html>

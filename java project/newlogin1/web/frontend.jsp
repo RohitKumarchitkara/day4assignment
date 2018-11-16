@@ -1,9 +1,12 @@
+<%-- 
+    Document   : frontend
+    Created on : 13 Nov, 2018, 7:19:43 PM
+    Author     : ROHIT
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+<!DOCTYPE html>
 <HTML>
     <HEAD>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />

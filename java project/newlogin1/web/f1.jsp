@@ -58,24 +58,24 @@ body {
     </head>
     <body>
         <div class="header">
-        <center> <img src="C:\Users\ROHIT\Desktop\Quikr-Logo.png" height="80" width="300"></center>
-       <div class="header-right"> <h1 ><a href="first.jsp"><input type="submit" value="Back" class="btn btn-success"/></a></h1>
+        <center> <img src="Quikr-Logo.png" height="80" width="300"></center>
+       <div class="header-right"> <h1 ><a href="frontend.jsp"><input type="submit" value="Back" class="btn btn-success"/></a></h1>
         </div>
         </div>
         <h3 style="align-content: left"><b>Furniture</b></h3><br>
         <div>
-            <div class='inline'><div><img src="C:\Users\ROHIT\Desktop\logo\f1.jpg" height="200px" width="200px"><h3>Bed sets</h3></div></div>
-            <div class='inline'><div><img src="C:\Users\ROHIT\Desktop\logo\f2.jpg" height="200px" width="200px"><h3>Sofa sets</h3></div></div>
-            <div class='inline'><div><img src="C:\Users\ROHIT\Desktop\logo\f3.jpg" height="200px" width="200px"><h3>Dinning sets</h3></div></div>
-            <div class='inline'><div><img src="C:\Users\ROHIT\Desktop\logo\f4.jpg" height="200px" width="200px"><h3>Dressing Tables</h3></div></div>
-            <div class='inline'><div><img src="C:\Users\ROHIT\Desktop\logo\f5.jpg" height="200px" width="200px"><h3>Swings</h3></div></div>
-            <div class='inline'><div><img src="C:\Users\ROHIT\Desktop\logo\f6.jpg" height="200px" width="200px"><h3>Office Chairs</h3></div></div>
+            <div class='inline'><div><a href="f11.jsp"><img src="logo/f1.jpg" height="200px" width="200px"><h3>Bed sets</h3></a></div></div>
+            <div class='inline'><div><img src="logo/f2.jpg" height="200px" width="200px"><h3>Sofa sets</h3></div></div>
+            <div class='inline'><div><img src="logo/f3.jpg" height="200px" width="200px"><h3>Dinning sets</h3></div></div>
+            <div class='inline'><div><img src="logo/f4.jpg" height="200px" width="200px"><h3>Dressing Tables</h3></div></div>
+            <div class='inline'><div><img src="logo/f5.jpg" height="200px" width="200px"><h3>Swings</h3></div></div>
+            <div class='inline'><div><img src="logo/f6.jpg" height="200px" width="200px"><h3>Office Chairs</h3></div></div>
         </div>
         <h3 style="align-content: left"><b>Decor</b></h3>
         <div>
-            <div class='inline'><div><img src="C:\Users\ROHIT\Desktop\logo\f7.jpg" height="200px" width="200px"><h3>Home Furnishing</h3></div></div> 
-             <div class='inline'><div><img src="C:\Users\ROHIT\Desktop\logo\f8.jpg" height="200px" width="200px"><h3>HouseHold Items</h3></div></div>
-              <div class='inline'><div><img src="C:\Users\ROHIT\Desktop\logo\f9.jpg" height="200px" width="200px"><h3>Paintings</h3></div></div>
+            <div class='inline'><div><img src="logo/f7.jpg" height="200px" width="200px"><h3>Home Furnishing</h3></div></div> 
+             <div class='inline'><div><img src="logo/f8.jpg" height="200px" width="200px"><h3>HouseHold Items</h3></div></div>
+              <div class='inline'><div><img src="logo/f9.jpg" height="200px" width="200px"><h3>Paintings</h3></div></div>
         </div>
     </body>
 </html>

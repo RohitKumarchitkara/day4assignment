@@ -55,16 +55,16 @@ body {
     </head>
     <body>
          <div class="header">
-        <center> <img src="C:\Users\ROHIT\Desktop\Quikr-Logo.png" height="80" width="300"></center>
-       <div class="header-right"> <h1 ><a href="first.jsp"><input type="submit" value="Back" class="btn btn-success"/></a></h1>
+        <center> <img src="Quikr-Logo.png" height="80" width="300"></center>
+       <div class="header-right"> <h1 ><a href="frontend.jsp"><input type="submit" value="Back" class="btn btn-success"/></a></h1>
         </div>
         </div>
         <h3 style="align-content: left">Popular Products in Electronics & Appliances</h3>
         <div>
-           <div class='inline'><div><img src="C:\Users\ROHIT\Desktop\logo\e1.jpg" height="200px" width="300px"><h3><center>LED TV</center></h3></div></div>
-           <div class='inline'><div><img src="C:\Users\ROHIT\Desktop\logo\e2.jpg" height="200px" width="300px"><h3><center>Laptops</center></h3></div></div>
-           <div class='inline'><div><img src="C:\Users\ROHIT\Desktop\logo\e3.jpg" height="200px" width="300px"><h3><center>Washing Machines</center></h3></div></div>
-           <div class='inline'><div><img src="C:\Users\ROHIT\Desktop\logo\e5.jpg" height="200px" width="300px"><h3><center>Air Conditioners</center></h3></div></div>
+            <div class='inline'><div><a href="el1.jsp"><img src="logo/e1.jpg" height="200px" width="300px"><h3><center>LED TV</center></h3></a></div></div>
+            <div class='inline'><div><a href="el2.jsp"><img src="logo/e2.jpg" height="200px" width="300px"><h3><center>Laptops</center></h3></a></div></div>
+           <div class='inline'><div><img src="logo/e3.jpg" height="200px" width="300px"><h3><center>Washing Machines</center></h3></div></div>
+           <div class='inline'><div><img src="logo/e5.jpg" height="200px" width="300px"><h3><center>Air Conditioners</center></h3></div></div>
         </div>
     </body>
 </html>

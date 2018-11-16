@@ -16,13 +16,22 @@ body  {
     background-color: #cccccc;
 }
 </style>
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["uname"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+</script>
     </head>
     <body>
         <br>
         <br>
         <br>
     <center><h1><u>Login Here</u></h1></center>
-        <form method="post" action="login.jsp">
+    <form name="myform" method="post" action="login.jsp" onsubmit="return validateForm()">
             <center>
             <table>
                 <tr>
