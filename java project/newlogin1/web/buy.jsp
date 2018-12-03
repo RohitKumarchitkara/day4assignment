@@ -14,6 +14,13 @@
             h1{
                 align-content: left;
             }
+              body{
+                margin: 0;
+                padding: 0;
+                background-image: url("a3.jpg");
+                background-size: cover;
+                font-family: sans-serif;
+            }
             </style>
             <style>
  
@@ -87,16 +94,16 @@
     <br>
     <br>
         <div class="login-box">
-        <form method="post" action="frontend.jsp">
+        <form method="post" action="buy1.jsp">
             <p>Pincode</p>
-            <input type="text" name="code" placeholder="pincode" required="">
+            <input type="text" name="code" placeholder="pincode" required="" style="color: white">
             <p>Email</p>
             <input type="text" name="email" placeholder="Email" required="">
             <p>Mobile Number</p>
             <input type="text" name="mobile" placeholder="mobile number" required="">
              <input type="submit" name="submit" value="Buy">
             
-            </form>
+            </form> 
         
         
         </div>

@@ -94,7 +94,7 @@
   <p>Quikr furniture</p>  
   <form class="form-inline">Get deals:
     <input type="email" class="form-control" size="50" placeholder="Email Address">
-    <button type="button" class="btn btn-danger">Sign Up</button>
+    <a href="reg.jsp"><button type="button" class="btn btn-danger">Sign Up</button></a>
   </form>
 </footer>
 

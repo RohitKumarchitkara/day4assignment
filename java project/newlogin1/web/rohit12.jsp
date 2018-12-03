@@ -102,13 +102,13 @@
     </head>
     <body>
         <div class="login-box">
-            <img src="a1.png" class="avatar">
+           
             <h1>Login Here</h1>
-            <form name="myform" method="post" action="frontend.jsp" onsubmit="return validateForm()">
+            <form name="myform" method="post" action="validate.jsp">
                 <p>Username</p>
-                <input type="text" name="username" placeholder="Enter Username">
+                <input type="text" name="username" placeholder="Enter Username" required>
                 <p>Password</p>
-                <input type="password" name="password" placeholder="Enter Password">
+                <input type="password" name="password" placeholder="Enter Password" required>
                 <input type="submit" name="submit" value="Login">
                 <b><center><font color="white"><u><a href="reg.jsp">Register here</a></u></font></center></b>
 

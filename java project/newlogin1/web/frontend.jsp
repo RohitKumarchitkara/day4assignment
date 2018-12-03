@@ -11,6 +11,26 @@
     <HEAD>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+        <STYLE>
+            input[type=text] {
+    width: 70%;
+    padding: 12px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: blue;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:8px; 
+}
+
+            </style>
     </Head>
     <BODY>
         <nav class="navbar" role="navigation" aria-label="main navigation" style="border-bottom: 0.5px solid black;">
@@ -32,10 +52,6 @@
                         <font color="darkblue"><h1><b>Home</B></h1></font>
                     </a>
 
-                    <a class="navbar-item">
-                        <font color="darkblue"><h1><b>Documentation</B></h1></font>
-                    </a>
-
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link">
                             <font color="darkblue"><h1><b>More</B></h1></font>
@@ -51,17 +67,20 @@
                         </div>
                     </div>
                 </div>
+                <center><form action="m1.jsp"><input type="text" placeholder="search">&nbsp;<input type="submit" value="Search"></FORM></center>&nbsp;&nbsp;&nbsp;
 
                 <div class="navbar-end">
                     <div class="navbar-item">
+                      
+                        <a href="cart123.jsp"><b>Cart Items</b><img src="logo/cat.jpg" height="50px" width="50px"></a>&nbsp;&nbsp;
                         <div class="buttons">
                             <a class="button is-primary" href="reg.jsp">
                                 <strong>Sign up</strong>
                             </a>
-                            <a class="button is-light" href="rohit12.jsp">
-                                Log in
+                            <a class="button is-primary" href="rohit12.jsp">
+                                <strong>Log in</STRONG>
                             </a>
-                            <a class="button is-primary" href="product1.jsp">
+                            <a class="button is-primary" href="post.jsp">
                                 <strong>Post Add</strong>
                             </a>
                         </div>
@@ -69,6 +88,7 @@
                 </div>
             </div>
         </nav>
+        
         <section style="padding-top : 56px;">
             <container>
                 <div class="columns">
@@ -77,7 +97,7 @@
                             <ul class="menu-list">
                                 <li><a>->Pick Up Drop Off</a></li>
                                 <li><a><a href="f1.jsp">->Furniture & Decor</a></a></li>
-                                <li><a><a href="">->Cars</a></a></li>
+                                <li><a><a href="uc.jsp">->Cars</a></a></li>
                                 <li><a><a href="e1.jsp">->Electronics</a></a></LI>
                                 <li><a><a href="m1.jsp">->Mobile</a></a></li>
                                 <li><a>->Bikes</a></li>
@@ -116,8 +136,8 @@
                                     </header>
                                     <div class="card-content">
                                         <div class="content">
+                                            <h4><a href="uc.jsp">-New Cars</a></h4>
                                             <h4><a href="">-Used Cars</a></h4>
-                                            <h4><a href="">-New Cars</a></h4>
                                             <h4><a href="">-RTO Services</a></h4>
                                             <br>
                                         </div>
@@ -199,5 +219,6 @@
                     </div>
             </container>
         </section>
+
     </body>
 </html>

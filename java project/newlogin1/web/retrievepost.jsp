@@ -1,6 +1,6 @@
 <%-- 
-    Document   : post
-    Created on : 15 Nov, 2018, 7:39:01 PM
+    Document   : retrievepost
+    Created on : 16 Nov, 2018, 10:51:34 AM
     Author     : ROHIT
 --%>
 
@@ -19,7 +19,7 @@
     padding-bottom: 0.625em;
     padding-left: 0.25em;
     padding-right: 0.25em;
-    border: 6px groove;
+    border: 6px groove; 
 }
 input[type=text] {
     background-color: white;
@@ -57,16 +57,14 @@ input[type=submit]{
     margin: 4px 2px;
     cursor: pointer;
 }
-
+   
         </style>
     </head>
     <body>
-       
-   
         
-        <h1 style="text-align: left"> <img src="Quikr-Logo.png" height="70px" width="100px"><b>&nbsp;&nbsp;<center>The Best Way to Sell Your Product<center></b></h1>
+        <h1 style="text-align: left"> <img src="Quikr-Logo.png" height="70px" width="100px"><b>&nbsp;&nbsp;The Best Way to Sell Your Product</b></h1>
     
-        <form action="SubmitForm" method="POST" enctype='multipart/form-data'>
+        <form action="showpost.jsp">
             <fieldset>
                 <legend><b><h1>Enter Product Details</b></h1></legend>
             Your Brand :<br>
@@ -76,7 +74,7 @@ input[type=submit]{
            Your Model :<br>
            <input type="text" name ="model" required><br>
             Year of Registration :<br>
-            <input type="date" name="yor" required><br>
+            <input type="text" name="yor" required><br>
            City :<br>
            <input type="text" name="city" required><br>
            Expected Selling Price :<br>
@@ -92,7 +90,7 @@ input[type=submit]{
                 Your Name : <br>
                 <input type="text" name="name" required><br>
                 Your Mobile Number :<br>
-                <input type="tel" name="number" required><br>
+                <input type="number" name="number" required><br>
                 Your E-Mail : <br>
                 <input type="email" name="email" required><br>
             </fieldset>

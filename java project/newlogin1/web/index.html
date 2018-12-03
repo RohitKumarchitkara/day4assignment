@@ -8,6 +8,25 @@ and open the template in the editor.
     <HEAD>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            input[type=text] {
+                width: 70%;
+                padding: 12px 10px;
+                margin: 4px 0;
+                box-sizing: border-box;
+
+            }
+            input[type=button], input[type=submit], input[type=reset] {
+                background-color: blue;
+                color: white;
+                padding: 10px 10px;
+                text-decoration: none;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius:8px; 
+            }
+        </style>
+
     </Head>
     <BODY>
         <nav class="navbar" role="navigation" aria-label="main navigation" style="border-bottom: 0.5px solid black;">
@@ -29,9 +48,7 @@ and open the template in the editor.
                         <font color="darkblue"><h1><b>Home</B></h1></font>
                     </a>
 
-                    <a class="navbar-item">
-                        <font color="darkblue"><h1><b>Documentation</B></h1></font>
-                    </a>
+                   
 
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link">
@@ -48,18 +65,23 @@ and open the template in the editor.
                         </div>
                     </div>
                 </div>
+                <center><form action="m1.jsp"><input type="text" placeholder="search">&nbsp;<input type="submit" value="Search"></FORM></center>&nbsp;&nbsp;&nbsp;
 
                 <div class="navbar-end">
                     <div class="navbar-item">
+                        <a href="cart123.jsp"><b>Cart Items</b><img src="logo/cat.jpg" height="50px" width="50px"></a>&nbsp;&nbsp;
                         <div class="buttons">
                             <a class="button is-primary" href="reg.jsp">
                                 <strong>Sign up</strong>
                             </a>
-                            <a class="button is-light" href="rohit12.jsp">
-                                Log in
+                            <a class="button is-primary" href="rohit12.jsp">
+                                <STRONG> Log in</STRONG>
                             </a>
-                            <a class="button is-primary" href="product1.jsp">
+                            <a class="button is-primary" href="post.jsp">
                                 <strong>Post Add</strong>
+                            </a>
+                            <a class="button is-danger" href="logout.jsp">
+                                <STRONG> Log Out</STRONG>
                             </a>
                         </div>
                     </div>
@@ -74,13 +96,13 @@ and open the template in the editor.
                             <ul class="menu-list">
                                 <li><a>->Pick Up Drop Off</a></li>
                                 <li><a><a href="f1.jsp">->Furniture & Decor</a></a></li>
-                                <li><a><a href="">->Cars</a></a></li>
+                                <li><a><a href="uc.jsp">->Cars</a></a></li>
                                 <li><a><a href="e1.jsp">->Electronics</a></a></LI>
                                 <li><a><a href="m1.jsp">->Mobile</a></a></li>
-                                <li><a>->Bikes</a></li>
-                                <li><a>->Home & lifestyles</a></li>
-                                <li><a>->Kids & Toys</a></li>
-                                <li><a>->Commercial Real Estates</a></li>
+                                <li><a href="bike.jsp">->Bikes</a></li>
+                                <li><a href="f11.jsp">->Home & lifestyles</a></li>
+                                <li><a href="colleges.html">->Colleges</a></li>
+                                <li><a href="house.html">->Quikr Homes</a></li>
                                 <li><a>->Education</a></li>
                             </ul>
                         </aside>
@@ -113,9 +135,9 @@ and open the template in the editor.
                                     </header>
                                     <div class="card-content">
                                         <div class="content">
-                                            <h4><a href="">-Used Cars</a></h4>
-                                            <h4><a href="">-New Cars</a></h4>
-                                            <h4><a href="">-RTO Services</a></h4>
+                                            <h4><a href="uc.jsp">-New Cars</a></h4>
+                                            <h4><a href="uc.jsp">-Used Cars</a></h4>
+                                            <h4><a href="https://www.quikr.com/cars-bikes/rto-services/mumbai">-RTO Services</a></h4>
                                             <br>
                                         </div>
                                     </div>
@@ -130,9 +152,9 @@ and open the template in the editor.
                                     </header>
                                     <div class="card-content">
                                         <div class="content">
-                                            <h4><a href="">-Used Bikes</a></h4>
-                                            <h4><a href="">-New Bikes</a></h4>
-                                            <h4><a href="">-Used Scooters</a></h4>
+                                            <h4><a href="bike.jsp">-Used Bikes</a></h4>
+                                            <h4><a href="bike.jsp">-New Bikes</a></h4>
+                                            <h4><a href="bike.jsp">-Used Scooters</a></h4>
                                             <br>
                                         </div>
                                     </div>
@@ -166,9 +188,9 @@ and open the template in the editor.
                                     </header>
                                     <div class="card-content">
                                         <div class="content">
-                                            <h4><a href="">-House For Sale</a></h4>
-                                            <h4><a href="">-Newly Launched Projects</a></h4>
-                                            <h4><a href="">-House for Rent</a></h4>
+                                            <h4><a href="house.html">-House For Sale</a></h4>
+                                            <h4><a href="house.html">-Newly Launched Projects</a></h4>
+                                            <h4><a href="https://www.quikr.com/homes/property/residential-for-rent-in-Mumbai-cid_31">-House for Rent</a></h4>
                                             <br>
                                         </div>
                                     </div>
@@ -183,8 +205,8 @@ and open the template in the editor.
                                     </header>
                                     <div class="card-content">
                                         <div class="content">
-                                            <h4><a href="">-Colleges</a></h4>
-                                            <h4><a href="">-Study Abroad</a></h4>
+                                            <h4><a href="colleges.html">-Colleges</a></h4>
+                                            <h4><a href="colleges.html">-Study Abroad</a></h4>
                                             <h4><a href="">-Distance Learning</a></h4>
                                             <br>
                                         </div>
@@ -192,9 +214,10 @@ and open the template in the editor.
                                 </div>
                             </div>
                         </div>
-                        </div>
                     </div>
+                </div>
             </container>
         </section>
+        
     </body>
 </html>
